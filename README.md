@@ -33,14 +33,11 @@ ___
 ### Part 5: Trigger an animation
 [Useful Docs](https://d3js.org/#transitions)
 
-[<img src="./examples/part-5.png"/>](./examples/part-5.mov)
-
 [![Part 5](./examples/part-5.png)](./examples/part-5.mov)
 [Solution](https://bl.ocks.org/hanahanderson/b912694acb71b6aed3b1396fbfc0dc7f)
 
 ___
 ### Part 6: Interacting with the Visualisation
 
-[<img src="./examples/part-6.png"/>](./examples/part-6.mov)
 [![Part 6](./examples/part-6.png)](./examples/part-6.mov)
 [Solution](https://bl.ocks.org/hanahanderson/08b0e3ec69344584c58a166556cbfa2c)
