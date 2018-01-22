@@ -76,7 +76,16 @@ Read [here](https://github.com/matthewfdaniels/scripts) to see how the parse the
 ___
 ### Part 5: Trigger an animation
 
-Now we have our visualisation in a horizontal bar, we want to represent the films on a linear scale to quantify how many films have over 50% lines spoken by women in film.
+Now we have our visualisation in a horizontal bar, we want to represent the films as a bar chart to quantify how many films have over 50% lines spoken by women in film.
+
+In the original article the animation was triggered on page scroll, but we are just going to trigger it when the button `#trigger-animation` is clicked.
+
+The transition of styles for the div will be toggling:
+  1. position (top and left css style attributes)
+  2. height and width
+  3. border-radius (to display a circle rather than a rectangle)
+
+We can also stagger the transition of each of the divs to make the animation smooth based on the index of the data with the **delay** function.
 
 (ps. if you are completely lost, here is one way of grouping the films into the percent of female lines spoken, where the attribute `yOrder` can be used to calculate the y position aka the **top** css style attribute).
 
